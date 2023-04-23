@@ -24,7 +24,7 @@ for k, v in grammar.items():
 
 
 def cal_first(s):
-    if not s.uppercase():
+    if not s.isupper():
         return {s}
     if first[s]:
         return first[s]

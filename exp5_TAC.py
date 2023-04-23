@@ -36,7 +36,7 @@ exp = infixToPostfix(infix)
 print("Postfix:", exp)
 
 tac = {}
-stack = []
+stack = []  
 i = j = 0
 while i < len(exp):
     # print(exp[i], tac, stack)
