@@ -18,7 +18,6 @@ for k, v in grammar.items():
     print(f"{k} => {v}")
 
 remaining = {*ascii_uppercase} - {i for i in grammar}
-
 new_grammar = {}
 for i in grammar:
     alpha = []
