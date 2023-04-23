@@ -1,0 +1,6 @@
+MACRO
+&LABEL INCR1 &ARG1 &ARG2 &ARG3
+    &LABEL A 1, &ARG1
+           A 2, &ARG2
+           A 3, &ARG3
+MEND
